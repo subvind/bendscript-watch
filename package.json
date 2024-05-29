@@ -5,21 +5,14 @@
   "type": "module",
   "main": "cli.js",
   "bin": {
-    "transbend": "./cli-transpiled.js"
+    "transbend": "./cli.js"
   },
   "scripts": {
-    "start": "node cli.js",
-    "build": "babel cli.js --out-file cli-transpiled.js"
+    "start": "node cli.js"
   },
   "keywords": [],
   "dependencies": {
     "chokidar": "^3.6.0",
     "minimist": "^1.2.8"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.24.6",
-    "@babel/core": "^7.24.6",
-    "@babel/plugin-transform-modules-commonjs": "^7.24.6",
-    "@babel/preset-env": "^7.24.6"
   }
 }

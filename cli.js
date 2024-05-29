@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import chokidar from 'chokidar';
 import { exec } from 'child_process';
 import minimist from 'minimist';
