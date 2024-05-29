@@ -1,6 +1,6 @@
 {
   "name": "transbend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI tool to compile folders of BendScript files",
   "type": "module",
   "main": "cli.js",
